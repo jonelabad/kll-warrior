@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="kll-warrior.jpg" alt="tropang potchi-logo" type="image/x-icon">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>KLL Warrior</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                    <p>About Us</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Our Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Our Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Us</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! We are <span class="stylized-name">KLL Warrior</span>,</h1>
+                        <h2>A <span class="proffesions">Web Designer</span></h2>
+                        <div class="buttonGroup"><button class="hireMe-btn">Hire Us</button><button
+                                class="contactMe-btn">Contact Us</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="six.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Us</h1>
+                        <p class="aboutme-deatils">
+                        <p>Welcome to KLL Warrior!</p>
+
+                        <p>At KLL Warrior, we specialize in transforming ideas into stunning web designs that
+                            elevate your online presence. Our team of passionate web designers is dedicated to crafting
+                            visually appealing, user-friendly websites tailored to meet the unique needs of our clients.
+                            Founded with a vision to blend creativity and technology, we pride ourselves on our
+                            attention to detail and commitment to excellence. We work closely with our clients to
+                            understand their goals, ensuring that every design not only looks great but also functions
+                            seamlessly. Whether you’re a small business looking to establish your brand online or an
+                            individual
+                            seeking a personal website, Tropang Potchi is here to help. Let us bring your vision to life
+                            with innovative web design solutions that engage and inspire.</p>
+                        <br>Join us at KLL Warrior, where great design meets functionality!</br>
+                        </p>
+                        <div class="about-me-divison">
+                            <div class="about-me-table">
+                                <li><span>Experience:</span> 2+ years</li>
+                                <li><span>Country:</span> Philippines</li>
+                                <li><span>Avability:</span> 24/7 </li>
+                                <div class="buttonGroup"><button class="hireMe-btn">Hire Us</button><button
+                                        class="contactMe-btn">Contact Us</button></div>
+                            </div>
+
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:75%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:50%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:25%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide services">
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"></div>
+                        <h2>Custom Website Design</h2>
+                        <p>We create unique, visually stunning websites that reflect your brand identity. Our custom
+                            designs are built to engage visitors and drive conversions.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"></div>
+                        <h2>Responsive Web Design</h2>
+                        <p>With an increasing number of users accessing websites on mobile devices, we ensure that your
+                            site is fully responsive, providing a seamless experience across all screen sizes.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"></div>
+                        <h2>Branding and Graphic Design</h2>
+                        <p>From logos to marketing materials, we help you establish a cohesive brand identity that
+                            resonates with your audience. Our graphic design services enhance your visual communication.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="gta1.png" alt=""></div>
+                    <div class="project"><img src="gta2.png" alt=""></div>
+                    <div class="project"><img src="gta3.png" alt=""></div>
+                    <div class="project"><img src="gta4.png" alt=""></div>
+                    <div class="project"><img src="gta5.png" alt=""></div>
+                    <div class="project"><img src="gta6.png" alt=""></div>
+                </div>
+
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Cellphone Number</h3>
+                        <p>0909-351-1090</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location"></i>
+                        <h3>Location</h3>
+                        <p>Mataas Na Kahoy, Batangas</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>abadjonel91@gmail.com</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message
+                            <div class="SocialLinks">
+                                <a href="https://www.instagram.com/nimu.moves/profilecard/?igsh=ZWQ1cG51MTJiMml2"
+                                    target="_blank" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/AbadCasinillo?s=09" target="_blank" aria-label="Twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com/nimu.smille?mibextid=ZbWKwL" target="_blank"
+                                    aria-label="Facebook">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </div>
+                        </h2>
+                        <form id="contactForm">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                            <button class="primary" type="submit" disabled>Send</button>
+                        </form>
+                        <div id="errorMessages" style="color: red;"></div>
+
+                        <footer>
+                            <div class="SocialLinks">
+                                <span>Copyright © 2024 KLL Warrior:</span>
+                                <a href="https://www.facebook.com/skawngrace?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">Grace Mendoza ,</a>
+                                <a href="https://www.facebook.com/mariabeaberroya?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">Ma Bea Berroya ,</a>
+                                <a href="https://www.facebook.com/ronalyndelatorre.abuyan?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">Ronalyn Abuyan ,</a>
+                                <a href="https://www.facebook.com/shrlncrzt" target="_blank" aria-label="Facebook">Sharlene Cruzat ,</a>
+                                <a href="https://www.facebook.com/Lheasaibethrodriguez" target="_blank" aria-label="Facebook">Lia Rodriquez ,</a>
+                            </div>
+                        </footer>
+                        
+                </div>
+            </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
